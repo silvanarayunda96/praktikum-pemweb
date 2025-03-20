@@ -55,7 +55,7 @@ body {
     margin-bottom: 20px;
 }
 
-.doctor-image {
+.gambar-dokter {
     position: relative;
     height: 60%;
     width: 100%;
@@ -63,7 +63,7 @@ body {
     margin-top: 50px;
 }
 
-.doctor-image img {
+.gambar-dokter img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
