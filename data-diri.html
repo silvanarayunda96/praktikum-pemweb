@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacsin - Isi Data Diri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container data-page">
+        <header class="navigation">
+            <div class="logo-container">
+                <h1><span class="logo-v">V</span>acsin</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Varian</a></li>
+                    <li><a href="#">Edukasi</a></li>
+                    <li><a href="#">Lokasi Vaksin</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="profile-icon">
+                <div class="circle"></div>
+            </div>
+        </header>
+
+        <main class="data-form">
+            <h2>Isi Data Diri</h2>
+
+            <section class="data-section">
+                <h3>Status Vaksin</h3>
+                
+                <div class="form-grid">
+                    <div class="form-question-group">
+                        <p>Apakah sudah menerima VAKSIN dosis 1?</p>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="vaksin-dosis1" value="ya">
+                                <span class="radio-custom"></span>
+                                Ya
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="vaksin-dosis1" value="tidak">
+                                <span class="radio-custom"></span>
+                                Tidak
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-question-group">
+                        <p>Vaksin apa yang didapat?</p>
+                        <div class="select-container">
+                            <select name="jenis-vaksin">
+                                <option value="sinovac">SINOVAC</option>
+                                <option value="astrazeneca">AstraZeneca</option>
+                                <option value="pfizer">Pfizer</option>
+                                <option value="moderna">Moderna</option>
+                                <option value="sinopharm">Sinopharm</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-question-group">
+                        <p>Kapan Vaksin dosis pertama anda?</p>
+                        <div class="date-input">
+                            <input type="text" placeholder="dd/mm/yyyy">
+                            <span class="calendar-icon">📅</span>
+                        </div>
+                    </div>
+
+                    <div class="form-question-group">
+                        <p>Apakah memiliki gejalan serius setelah vaksin?</p>
+                        <input type="text" class="full-width-input">
+                    </div>
+                </div>
+            </section>
+
+            <section class="data-section">
+                <h3>Status Kesehatan</h3>
+                
+                <div class="form-grid">
+                    <div class="form-question-group">
+                        <p>Apakah anda pernah terkonfirmasi menderita COVID-19?</p>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="covid-history" value="ya">
+                                <span class="radio-custom"></span>
+                                Ya
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="covid-history" value="tidak">
+                                <span class="radio-custom"></span>
+                                Tidak
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-question-group">
+                        <p>Apakah anda mengalami gejala ISPA? dalam 7 hari terakhir?</p>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="ispa-gejala" value="ya">
+                                <span class="radio-custom"></span>
+                                Ya
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="ispa-gejala" value="tidak">
+                                <span class="radio-custom"></span>
+                                Tidak
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-question-group">
+                        <p>Apakah anda memiliki penyakit hipertensi?</p>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="hipertensi" value="ya">
+                                <span class="radio-custom"></span>
+                                Ya
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="hipertensi" value="tidak">
+                                <span class="radio-custom"></span>
+                                Tidak
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-question-group">
+                        <p>Apakah anda memiliki penyakit kronis lainnya?</p>
+                        <input type="text" class="full-width-input">
+                    </div>
+                </div>
+            </section>
+
+            <div class="save-button-container">
+                <button type="submit" class="btn-submit">Simpan</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
